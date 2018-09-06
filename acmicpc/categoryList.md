@@ -37,8 +37,8 @@
 
 ## 수학
 1074 : Z (https://www.acmicpc.net/problem/1074)  
-1339 : 단어 수학 (https://www.acmicpc.net/problem/1339) 
-2839 : 설탕 배달 (https://www.acmicpc.net/problem/2839) 
+1339 : 단어 수학 (https://www.acmicpc.net/problem/1339)  
+2839 : 설탕 배달 (https://www.acmicpc.net/problem/2839)  
 13458 : 시험감독 (https://www.acmicpc.net/problem/13458)  
 
 ## 구현
