@@ -1,5 +1,14 @@
 # List by category
 
+
+## 그리디 (탐욕)
+11047 : 동전 0 (https://www.acmicpc.net/problem/11047)  
+11399 : ATM (https://www.acmicpc.net/problem/11399)  
+1931  : 회의실배정 (https://www.acmicpc.net/problem/1931)  
+1946  : 신입사원 (https://www.acmicpc.net/problem/1946)  
+1758  : 알바생 강호 (https://www.acmicpc.net/problem/1758)  
+2109  : 순회강연 (https://www.acmicpc.net/problem/2109)   
+
 ## 시뮬레이션
 14503 : 로봇청소기 (https://www.acmicpc.net/problem/14503)   
 14891 : 톱니바퀴 (https://www.acmicpc.net/problem/14891)  
@@ -8,6 +17,7 @@
 2231 : 분해합 (https://www.acmicpc.net/problem/2231)  
 12100 : 2048(easy) (https://www.acmicpc.net/problem/12100)  
 14500 : 테트로미노 (https://www.acmicpc.net/problem/14500)  
+14889 : 스타트와 링크 (https://www.acmicpc.net/problem/14889)  
 
 ## 다이나믹 프로그래밍
 5582 : 공통 부분 문자열 (https://www.acmicpc.net/problem/5582)  
