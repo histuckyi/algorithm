@@ -23,4 +23,5 @@
 1946  : 신입사원 (https://www.acmicpc.net/problem/1946)  
 1758  : 알바생 강호 (https://www.acmicpc.net/problem/1758)  
 2109  : 순회강연 (https://www.acmicpc.net/problem/2109)   
-14889 : 스타트와 링크 (https://www.acmicpc.net/problem/14889)   
+14889 : 스타트와 링크 (https://www.acmicpc.net/problem/14889)  
+15671: 오델로 (https://www.acmicpc.net/problem/15671)  

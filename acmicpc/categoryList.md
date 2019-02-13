@@ -12,6 +12,7 @@
 ## 시뮬레이션
 14503 : 로봇청소기 (https://www.acmicpc.net/problem/14503)   
 14891 : 톱니바퀴 (https://www.acmicpc.net/problem/14891)  
+15671 : 오델로 (https://www.acmicpc.net/problem/15671)  
 
 ## 브루트 포스
 2231 : 분해합 (https://www.acmicpc.net/problem/2231)  
