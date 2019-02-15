@@ -4,8 +4,8 @@ blog : https://daimhada.tistory.com/61
 """
 
 def solve(_n, _m, map):
-    # ‘W’는 흰색, ‘B’는 파란색, ‘R’은 빨간색
-    # 맨 위, 맨 아래에는 이미 색이 정해져 있다.
+    # ‘W’: white, ‘B’: blue, ‘R’: red
+    # The color are already set at the top and bottom
     extra_count = _n - 2
 
     result = 99999999999
@@ -16,19 +16,19 @@ def solve(_n, _m, map):
             rc = extra_count - wnb
             wc = wnb - bc
 
-            # 맨 위, 아래 칠할 수를 더해준다.
+            # set at the top and bottom
             wc += 1
             rc += 1
 
-            # 흰색으로 wc 만큼 칠하기
+            # fill wc lines in white
             for wi in range(0, wc):
                 total += map[wi][0]
 
-            # 파란색으로 bc 만큼 칠하기
+            # fill bc lines in blue
             for bi in range(wc, wc + bc):
                 total += map[bi][1]
 
-            # 빨간색으로 rc 만큼 칠하기
+            # fill rc lines in blue
             for ri in range(wc+ bc,wc + bc + rc):
                 total += map[ri][2]
             if result > total:
@@ -43,7 +43,7 @@ if __name__ == "__main__":
         lines = []
         for i2 in range(n):
             line = list(input().strip())
-            # 각 색을 칠했을 때 새로 칠해야 하는 칸의 수를 구한다
+            # Calculate the count of spaces that need to be filled in each color
             w = m - line.count('W')
             b = m - line.count('B')
             r = m - line.count('R')

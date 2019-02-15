@@ -24,7 +24,7 @@ def solve(code):
     compared = '0'
     count = 0
 
-    # 코드만 추출
+    # Extract code only
     for ch in code[start_index:start_index + 56]:
 
         if ch == compared:
