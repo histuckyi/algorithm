@@ -1,3 +1,7 @@
+"""
+SW Expert Academy 1249. 보급로
+blog : https://daimhada.tistory.com/87
+"""
 
 from collections import deque
 
