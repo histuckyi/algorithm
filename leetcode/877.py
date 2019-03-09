@@ -6,7 +6,7 @@ problem: https://leetcode.com/problems/stone-game/
 from functools import lru_cache
 
 class Solution:
-    def stoneGame(selfself, piles):
+    def stoneGame(self, piles):
         N = len(piles)
 
         @lru_cache(None)
