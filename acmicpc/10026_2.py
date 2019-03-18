@@ -1,3 +1,9 @@
+"""
+백준 10026. 적록색약
+blog : https://daimhada.tistory.com/95
+problem : https://www.acmicpc.net/problem/10026
+"""
+
 import sys
 input = sys.stdin.readline
 
