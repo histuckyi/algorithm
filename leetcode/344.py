@@ -1,7 +1,7 @@
 """
 LeetCode 344. Reverse String
 blog : https://daimhada.tistory.com/98
-priblem : https://leetcode.com/problems/reverse-string/
+problem : https://leetcode.com/problems/reverse-string/
 """
 
 class Solution1:
