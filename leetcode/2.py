@@ -1,6 +1,6 @@
 """
 LeetCode 2. Add Two Numbers
-blog : https://daimhada.tistory.com/51
+blog : https://daimhada.tistory.com/116
 problem : https://leetcode.com/problems/add-two-numbers/submissions/
 """
 
