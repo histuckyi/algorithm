@@ -37,10 +37,6 @@ class Solution:
                 return False
         return True
 
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
-
-
 
 s = Solution()
 print(s.isPalindrome(-121)) # False
