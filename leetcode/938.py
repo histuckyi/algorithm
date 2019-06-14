@@ -22,8 +22,8 @@ def _insert_node_into_binarysearchtree(node, data):
     return node
 
 
-
-class Solution:
+# Recursion
+class Solution1:
     def checkChildBST(self, root, result, l, r):
 
         # if leaf node, recursion must be closed
@@ -52,6 +52,38 @@ class Solution:
         return self.checkChildBST(root, 0, L, R)
 
 
+# while loop
+class Solution2:
+    def rangeSumBST(self, root, L: int, R: int) -> int:
+
+        node_list = [root]
+        result = 0
+
+        while node_list:
+            current_node = node_list.pop()
+
+            if L < current_node.val < R:
+                result += current_node.val
+                if current_node.left:
+                    node_list.append(current_node.left)
+                if current_node.right:
+                    node_list.append(current_node.right)
+
+            elif current_node.val <= L:
+                if current_node.val == L:
+                    result += current_node.val
+                if current_node.right:
+                    node_list.append(current_node.right)
+
+            elif R <= current_node.val:
+                if R == current_node.val:
+                    result += current_node.val
+                if current_node.left:
+                    node_list.append(current_node.left)
+
+        return result
+
+
 if __name__ == "__main__":
     root = _insert_node_into_binarysearchtree(None, 10)
     node = _insert_node_into_binarysearchtree(root, 5)
@@ -62,6 +94,6 @@ if __name__ == "__main__":
     node = _insert_node_into_binarysearchtree(root, 1)
     node = _insert_node_into_binarysearchtree(root, 6)
 
-    s = Solution()
+    s = Solution2()
     print(s.rangeSumBST(root, 7, 15))
     print(s.rangeSumBST(root, 6, 10))
